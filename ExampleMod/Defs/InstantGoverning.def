@@ -1,0 +1,19 @@
+// syntax 1
+GovernCityAction
+{
+	prepare_duration = 0 // makes the action instant
+	show_in_action_bar = true // makes the action appear in the character's action bar
+}
+
+// syntax 2
+ReassignGovernCityAction.prepare_duration = 0
+
+// example of "delete"
+AssignNewGovernCityAction
+{
+	delete prepare_duration // if this key is missing it will default to 0
+}
+
+// syntax 2 can also be used for "delete", like this:
+// delete AssignNewGovernCityAction.prepare_duration
+

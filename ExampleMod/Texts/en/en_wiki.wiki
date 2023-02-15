@@ -1,0 +1,12 @@
+#article TOC_Description
+#caption Welcome
+Welcome to "Knights of Honor II: Sovereign" ... AND the Example mod for it!
+{p}Here in the Royal Library we will try to help you understand more about the world, mechanics and components of our game.
+{p}With the buttons on the left side of this panel, you can navigate to the main sections of this Library. The buttons on the bottom side of the panel will help you go back and forward, as well as to see the History of all articles that you've read. You can also press the "backspace" button to go back.
+{p}All highlighted keywords are links to articles within the Library and if a keyword refers to more than one article, you will see a list of all related articles to pick from.
+
+#article World_Description
+#caption World
+The world of "Knights of Honor II: Sovereign" (and the Example Mod) is a stylized depiction of the medieval "old world" — Europe, northern Africa and the near east (Western Asia).
+{p}This territory is split into provinces, each ruled by a kingdom. A kingdom can  have many provinces, but a province cannot be split and is always ruled by a single kingdom. The oceans and seas are always neutral and no one can own them.
+{p}Each province, as well as each kingdom, has a religion and culture, and those of a province can differ from those of the kingdom that owns the province, which can lead to some local tension. The important features of each province are its town, settlements, geography and province features.

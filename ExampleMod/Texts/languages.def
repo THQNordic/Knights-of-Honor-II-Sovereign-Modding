@@ -1,0 +1,7 @@
+Language.gbrsh = "Gibberish"
+{
+	voiced = false
+	voice_enabled = false	
+}
+
+Language.gbrsh.enabled = true

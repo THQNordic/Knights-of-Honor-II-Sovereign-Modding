@@ -1,0 +1,17 @@
+This is an example mod, demonstrating how to change various things in the game:
+- Hiring new members of the Royal Court now always costs 5 gold
+- Changing governors is now instant (English and Giberish texts updated)  
+- Militia and Advanced militia now only cost 1 population
+- Changed the icon for Market Square with a completely new icon
+- Bulgaria in the middle period is Catholic, Serbian culture, the King is Diplomat Michael
+----- The portrait of the king has a beard and glasses in the Adult age
+- Changed the coat of arms of Bulgaria to white-green-red
+- English-only changes:
+----- "New Campaign" button renamed to "Single Player"
+----- Sredetz is renamed to "Sofia"
+----- Modded some Royal Library articles (a.k.a. "wiki files") for demonstration
+- Added new language: Gibberish:
+----- "New Campaign" button renamed to "Wen Pamcaing"
+----- Sredetz is renamed to "Sifoa"
+----- "Diplomat" is translated as "Pidlotam"
+----- "Michael" is translated as "Mihal"
