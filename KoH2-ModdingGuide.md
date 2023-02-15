@@ -1,4 +1,12 @@
-===== How to create a basic mod
+NOTE:
+=====
+
+The latest version of this guide is also available on GitHub:
+https://github.com/THQNordic/Knights-of-Honor-II-Sovereign-Modding/blob/main/KoH2-ModdingGuide.md
+
+
+How to create a basic mod
+=========================
 
 1. Open C:\Users\<your-user>\AppData\LocalLow\BlackSeaGames\Sovereign
 	- Replace <your-user> with the proper user name.
@@ -45,7 +53,8 @@ Mods/
 
 
 
-===== General comments on making mods:
+General comments on making mods
+===============================
 
 - You should NOT modify the original files in the game's install folder!
 	- if you do, the game will detect that changes and will not let you play multiplayer
@@ -58,7 +67,8 @@ Mods/
 
 
 
-===== How to mod .def files in the Defs folder
+How to mod .def files in the Defs folder
+========================================
 
 The majority of the mod changes will probably happen by modding values in the game's .def files.
 To do that you first create a .def file in your mod's Defs/ folder.
@@ -237,7 +247,8 @@ Here is another example of a .def file in a mod, called InstantGoverning.def:
 
 
 
-===== How to mod .csv files in the Defs folder
+How to mod .csv files in the Defs folder
+========================================
 
 All .csv files in the game's original Defs folder are technically just alternative syntax for defs.
 In other words, this table:
@@ -289,7 +300,8 @@ It is OK to only use the columns you want to modify.
 
 
 
-===== How to mod texts
+How to mod texts
+================
 
 You may notice there are a lot of localized texts inside the game's original .def files.
 You should NOT try to modify these!
@@ -372,7 +384,8 @@ The file name (and the folder) doesn't matter, as long as it is in Texts/<langua
 
 
 
-===== How to add a new language
+How to add a new language
+=========================
 
 If you want to add another language to the game, you will need to mod Texts/languages.def.
 The original file looks like this:
@@ -445,7 +458,8 @@ The file must be called Texts/xxx/xxx_preload.csv, where "xxx" is the language c
 
 
 
-===== How to mod maps
+How to mod maps
+===============
 
 In the game's original files you will find a folder called "Maps/europe/".
 There are 2 other folders in Maps/ which you should ignore for now.
@@ -461,7 +475,8 @@ This will also work for any binary file in that folder, but for the moment you d
 
 
 
-===== How to mod portraits
+How to mod portraits
+====================
 
 In the original game's files there is a folder called "Portraits", which contains .zip files.
 These contain many .png files with portraits in different sizes.
@@ -473,7 +488,8 @@ Note that changes to portraits may require restart of the game to take effect.
 
 
 
-===== How to mod icons, illustrations, etc.
+How to mod icons, illustrations, etc.
+=====================================
 
 Textures and sprites referenced in the game's def fields can be modded.
 To achieve that you need to do the following:
@@ -513,7 +529,8 @@ And you can replace it like this:
 
 
 
-===== How to port an earlier game version mod (pre-patch)
+How to port an earlier game version mod (pre-patch)
+===================================================
 
 Before the modding rework patch (1.2.0), mods were made by copying the entire Defs, Texts and Maps folders to the mod folder.
 Then modders would change anything they want in their copy of these folders.
@@ -530,7 +547,7 @@ With the modding rework patch, these mods will be invalidated once more (and hop
 
 In order to "port" a mod using the old system to the new one, you need to:
 	- Have a clean copy of the (pre-patch) original game files used as a "base" for the mod
-		- we will provide such a copy for download in case you don't have it
+		- you can download it from here: https://knightsofhonor.com/modding/KoH2-GameDefs-30990.zip
 	- Find all the differences between the original game files and the mod files
 		- there are free tools for file compare, like WinMerge, to automate that process
 	- Re-create the mod, this time only containing the differences from "base"
@@ -548,7 +565,8 @@ I.e., next to "Saves", instead of inside "Saves".
 
 
 
-===== Mod conflicts
+Mod conflicts
+=============
 
 Since the mods only contain differences (deltas) from the original game files, you can have multiple active mods.
 But there is still the possibility for different mods to modify the same value differently.
@@ -584,7 +602,8 @@ The game will also detect and log conflicts in texts and binary files.
 
 
 
-===== Mod versions mismatch
+Mod versions mismatch
+=====================
 
 Every time you save a game (singleplayer or multiplayer) the game also saves information about mods used for that game.
 Similarly, when you create a multiplayer campaign the mod information is stored in the "lobby" data.
@@ -617,9 +636,13 @@ For example, if you use a mod translating the game to a new language, you can us
 
 
 
-===== How to upload a mod to Steam Workshop
+How to upload a mod to Steam Workshop
+=====================================
 
-We will provide a tool for download, allowing you to publish your mods to Steam Workshop.
+There is a Steam Workshop upload tool in the game's install folder. You can find it here:
+	ModdingInfo/KOH2ModUploadTool/KOH2ModUploadTool.exe
+
+It allows you to publish your mods to Steam Workshop.
 The tool is very simple - essentially you just locate the folder of your mod and hit "Publish".
 Optionally, you can also provide a screenshot image and some tags for your mod (we recommend you to do so).
 For new mods, you will have to click a "Get ID" button once.
@@ -632,9 +655,16 @@ Thus if you're developing a mod, you can continue to do so even if you have subs
 
 
 
-===== More information
+More information
+================
 
-We will provide an example mod, containing most of the examples given here, plus some other modifications.
+There is an example mod, containing most of the examples given here, plus some other modifications.
+It is provided in the game's install folder, under ModdingInfo/ExampleMod.
+
+There is a GitHub repository here:
+	https://github.com/THQNordic/Knights-of-Honor-II-Sovereign-Modding
+There you will find (an updated version of) this guide and the example mod.
+
 For further assistance you can always refer to the community forum / discord channel.
 
 https://community.knightsofhonor.com/
